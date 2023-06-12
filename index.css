@@ -140,6 +140,7 @@ p {
     display:inline-block;
     vertical-align: top;
     padding-top: 0;
+    padding-left: 40px;
 }
 .montserrat {
     font-size: 100px;
