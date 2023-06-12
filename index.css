@@ -137,11 +137,13 @@ p {
 
 .font-family-montserrat {
     font-family: Montserrat, sans-serif;
-    display:inline-block;
+    display: inline-block;
     vertical-align: top;
     padding-top: 0;
     padding-left: 40px;
+    padding-right: 40px;
 }
+
 .montserrat {
     font-size: 100px;
     padding-top: 10px;
@@ -152,6 +154,7 @@ p {
     display: inline-block;
     vertical-align: top;
     padding-left: 40px;
+    padding-right: 40px;
     padding-top: 0;
 }
 
