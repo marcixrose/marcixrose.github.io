@@ -1,41 +1,73 @@
-<!DOCTYPE html>
-<html></html>
-<head>
-    <link rel="stylesheet" href="https://marcixrose.github.io/index.css">
-</head>
-    <title>
-CSS Font Styling
-    </title>
+<html>
+  <header>
+    <link rel="stylesheet" href="/resources/index.css">
+    </header>
 <body>
-    <div class="header">
-<h1> CSS Font Styling</h1>
-<br>
-<p>There are a lot of ways to stylize fonts for your website.
-    Here are some commonly used styling properties. 
-</p>
-<br>
-<table>
-    <tr>
-      <th>@font-face</th>
-      <td>This allows you to import custom fonts <br>directly
-        into your CSS stylesheet.
-      </td>
-    </tr>
-    <tr>
-      <th>font-family</th>
-      <td>This is how you select certain fonts for <br>different elements 
-        within your CSS stylesheet.
-      </td>
-    </tr>
-    <tr>
-        <th>font-style</th>
-      <td>This allows you to change the style <br>of the font, i.e. italic, bold, light.</td>
-    </tr>
-     <tr>
-      <th>font-size</th>
-      <td>This allows you to increase or decrease<br> the size of your font per element.</td>
-    </tr>
-  </table>
+    <h1>Website Style Guide</h1>
+<p class="description">Style guide for Codeacademy Full Stack Engineering course.</p>
+
+<div class="container colors">
+    <h2>Colors</h2>
+    <div class="color-panel chartreuse">
+        <p class="color-label">Chartreuse</p>
+        <p class="color-hex">#E0FF4F</p>
+    </div>
+    <div class="color-panel dark-pink">
+        <p class="color-label">Dark Pink</p>
+        <p class="color-hex">#FF69EB</p>
+    </div>
+    <br>
+    <div class="color-panel light-pink">
+        <p class="color-label">Light Pink</p>
+        <p class="color-hex">#FF86C8</p>
+    </div>
+    <div class="color-panel dark-teal">
+        <p class="color-label">Dark Teal</p>
+        <p class="color-hex">#0B3954</p>
+    </div>
+</div>
+<div class="container fonts">
+    <h2>Fonts</h2>
+    <div class="font-family-abril">
+        <p class="abril"> Abril Fatface</p>
+        <p id="test-one">The quick brown fox jumps over the lazy dog.</p>
+    </div>
+    <div class="font-family-montserrat">
+        <p class="montserrat"> Montserrat </p>
+        <p id="test-one">The quick brown fox jumps over the lazy dog.</p>
+        <p id="test-two">The quick brown fox jumps over the lazy dog.</p>
+    </div>
+    <div class="font-family-robotoflex">
+        <p class="roboto"> Roboto Flex </p>
+        <p id="test-one">The quick brown fox jumps over the lazy dog.</p>
+        <p id="test-two">The quick brown fox jumps over the lazy dog.</p>
+        <p id="test-three">The quick brown fox jumps over the lazy dog.</p>
+    </div>
+</div>
+<div class="container textstyles">
+        <h2>Text Styles</h2>
+        <div class="text-panel-h1">
+            <h1 id="text-panel-h1"> H1 / Main Page Heading</h1>
+            <ul>
+                <li>Font / Abril Fatface</li>
+                <li>Regular 400</li>
+            </ul>
+        </div>
+        <div class="text-panel-h2">
+            <h2 id="text-panel-h2">H2 / Subheadings</h2>
+            <ul>
+                <li> Font / Montserrat </li>
+                <li> <i> Thin 100 Italic can be used for captioning.</i></li>
+            </ul>
+        </div>
+        <div class="text-panel-p">
+            <p id="text-panel-p"> P / Paragraphs and Labeling </p>
+            <ul>
+                <li>Font / Roboto Flex</li>
+                <li><b>Bold</b> and <i>Italic</i> font styles are optional.</li>
+            </ul>
+        </div>
+    </div>
 </div>
 </body>
-</html>
+  </html>
